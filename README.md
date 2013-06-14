@@ -33,9 +33,7 @@ sudo apt-get install mongodb-10gen
 Установка и запуск Erlang Appserver
 ```
 git clone git://github.com/Jugastrov/Erlang-Appserver.git && cd Erlang-Appserver
-rebar get-deps
-make
-make run
+make all
 ```
 Сервер доступен на localhost:8008
 
